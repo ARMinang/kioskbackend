@@ -27,7 +27,6 @@ exports.fetchSaldo = (kpj) => {
             aktif.length > 0
               ? statusAktif = "Aktif"
               : statusAktif = "Non-aktif"
-            console.log(data)
             const kodePerusahaan = data[0].KODE_PERUSAHAAN
             const kodeTk = data[0].KODE_TK
             const namaLengkap = data[0].NAMA_LENGKAP
